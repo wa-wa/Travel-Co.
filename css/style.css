@@ -1,0 +1,330 @@
+/* Made with and gathered with <3 and tears by Joshua Flores*/
+/* Free to use however you like */
+/* Summer of 2018 - Enjoy*/
+
+
+/* Home-Page */
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Amaranth');
+
+:root {
+  --black: #110B0A;
+  --grey: #BEC4D2;
+  --darkgrey: #717A83;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--black);
+  font-family: 'Amaranth', sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: var(--darkgrey);
+}
+
+.noHighlight {
+  -webkit-touch-callout: none; /* iOS Safari */
+     -webkit-user-select: none; /* Safari */
+      -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Firefox */
+         -ms-user-select: none; /* Internet Explorer/Edge */
+             user-select: none; /* Non-prefixed version, currently
+                                   supported by Chrome and Opera */
+}
+
+/* Intro  */
+#intro {
+  color: var(--black);
+  background-image: url('../images/kimson-doan-37947-unsplash.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 610px;
+}
+
+.logo {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.signup,
+.login {
+  padding: 20px;
+  text-align: right;
+}
+
+.signUp a {
+  color: var(--grey);
+}
+
+.login {
+  text-align: right;
+}
+
+.login a,
+.signup a,
+.logo a,
+.socialLinks a {
+  color: var(--grey);
+  text-decoration: none;
+}
+
+.logo a:hover,
+.signup a:hover,
+.login a:hover,
+.socialLinks a:hover {
+  color: var(--white);
+}
+
+.centerWord {
+  margin-top: 220px;
+  position: fixed;
+}
+
+.socialLinks {
+  position: fixed;
+  margin-top: 550px;
+}
+
+.centerWord h1 {
+  color: var(--white);
+  text-align: center;
+  font-size: 100px;
+}
+
+.bottomNav {
+  margin-top: 520px;
+}
+
+.pageCounter {
+  opacity: .25;
+  color: var(--grey);
+  bottom: 0;
+  position: fixed;
+  padding: 0 0 10px 20px;
+  font-size: 30px;
+  text-align: left;
+  z-index: 10;
+}
+
+.socialLinks {
+  top: 25px;
+  text-align: right;
+}
+
+/* END Intro */
+
+/*  About */
+.about {
+  height: 610px;
+}
+
+.about-contain {
+  margin-top: 200px;
+}
+
+.aboutWordBackground {
+  color: var(--grey);
+  opacity: .05;
+  position: fixed;
+  font-size: 200px;
+  z-index: -10;
+  bottom: 660px;
+}
+
+.about-content {
+  color: var(--white);
+}
+
+.about-content p {
+  text-align: justify;
+}
+
+.about-image {
+  position: static;
+}
+
+.img1 {
+  left: 20;
+  z-index: 10;
+}
+
+.img2 {
+  z-index: 5
+}
+
+/* END About */
+
+/* Videos Section*/
+#videos {
+  background-color: none;
+  height: 610px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.video {
+  margin-top: 100px;
+}
+.card {
+  border: 0;
+  overflow: hidden;
+  padding:0 120px 0 100px;
+  background-color: inherit;
+}
+
+.card h4 {
+  padding: 10px 10px 10px 0;
+  color: var(--grey);
+}
+
+.card img {
+  text-align: left;
+  height: 200px;
+  width: 350px;
+}
+
+.travelWordBackground {
+  color: var(--grey);
+  opacity: .05;
+  position: fixed;
+  font-size: 200px;
+  z-index: -10;
+  bottom:970px;
+}
+
+.banner {
+  z-index: -10;
+  background-color: var(--darkgrey);
+  color: var(--black);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 10px 10px 0 10px;
+  opacity: .2;
+  padding: 0 10px 0 10px;
+}
+
+/* Footer */
+
+.footer {
+  background: #031927;
+  font-size: 12px;
+  height: 610px;
+  color: white;
+}
+
+.footerLinks {
+  padding-top: 50px;
+  margin-left: 100px;
+}
+
+.compInfo i {
+  color: #588b8b;
+}
+
+.footer p {
+  padding-bottom: 5px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #588b8b;
+  border-bottom: 1px solid #17c967;
+}
+
+.footerLogo h1 {
+  margin-top: 100px;
+  color: #588b8b;
+  font-size: 90px;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 1000px) {
+  .centerWord {
+    margin-top: 150px;
+  }
+  .centerWord h1 {
+    color: var(--black);
+    text-align: center;
+    font-size: 80px;
+  }
+  .card img {
+    text-align: center;
+    max-width: inherit;
+  }
+  .card h4 {
+    text-align: center;
+  }
+  .card {
+    text-align: justify;
+    padding: 10px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .centerWord {
+    left: 0;
+    margin-top: 150px;
+  }
+  .centerWord h1 {
+    font-size: 50px;
+  }
+  .card {
+    padding: 0 50px 0 50px;
+  }
+  .card img {
+
+  }
+}
+
+
+/*  SignUp*/
+
+.signUpPage {
+  height: 200px;
+}
+
+.signUpForm {
+  text-align: center;
+  /* border: 1px solid var(--black); */
+  background-color: var(--white);
+  color: var(--black);
+  overflow: hidden;
+}
+
+.signUpForm button {
+  margin: 10px;
+  padding: 5px;
+}
+
+.signUpHalf {
+  background-image: url('../images/karl-magnuson-396823-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.signUpForm {
+  padding-top: 200px;
+}
+
+.signUpHalf,
+.signUpForm {
+  height: 610px;
+}
